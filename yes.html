@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>propose</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        body {
+            background-color: rgb(252, 139, 139);
+            font-family: sans-serif;
+            background-image: url(Untitled\ design\ \(15\).png);
+        }
+        
+        section {
+            padding: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10%;
+            background-color: rgba(255, 255, 255, 0.704);
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 0.2rem;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            height: max-content;
+            justify-content: space-between;
+        }
+        
+        .question {
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1rem;
+        }
+        
+        .yes{
+            height: 2.3rem;
+            width: 4rem;
+            border: none;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 0, 0);
+            border-radius: 1rem;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.488);
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+
+        }
+        .no {
+            height: 2.3rem;
+            width: 4rem;
+            border: none;
+            color: rgb(255, 255, 255);
+            background-color: rgb(2, 128, 14);
+            border-radius: 1rem;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.468);
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+        
+        .buttons {
+            margin-top: 2rem;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            
+            
+
+        }
+        
+        .img1 {
+            border-radius: 1rem;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.389);
+        }
+
+        @media only screen and (max-width: 600px) {
+            section {
+                width: 80%;
+                margin-top: 8rem;
+            }
+            img{
+                height: 9rem;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .question{
+                font-size: medium;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+           .buttons{
+            margin-bottom: 1rem;
+           }
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <img src="YES.gif" alt="" class="img1" id="Img1">
+            <h1 class="question" id="Question">I LOB YOU </h1>
+            
+        </div>
+    </section>
+</body>
+</html>
